@@ -1,0 +1,24 @@
+[2025-09-21T16:27:20.868+0330] {processor.py:186} INFO - Started process (PID=31118) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-09-21T16:27:20.869+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-09-21T16:27:20.872+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:20.872+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-09-21T16:27:20.910+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:20.910+0330] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-09-21T16:27:20.913+0330] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-09-21T16:27:21.076+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.075+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2025-09-21T16:27:21.094+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.094+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2025-09-21T16:27:21.108+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.108+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2025-09-21T16:27:21.150+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.150+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_python_decorator
+[2025-09-21T16:27:21.168+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.167+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_python_decorator
+[2025-09-21T16:27:21.187+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.187+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_python_decorator
+[2025-09-21T16:27:21.208+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.208+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_python_decorator
+[2025-09-21T16:27:21.209+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.209+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:21.223+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.223+0330] {dag.py:3262} INFO - Creating ORM DAG for example_python_decorator
+[2025-09-21T16:27:21.224+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:21.224+0330] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-09-21T16:27:21.257+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.398 seconds
+[2025-09-21T16:28:32.104+0330] {processor.py:186} INFO - Started process (PID=33750) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-09-21T16:28:32.106+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-09-21T16:28:32.109+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:32.109+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-09-21T16:28:32.155+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:32.155+0330] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-09-21T16:28:32.159+0330] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-09-21T16:28:32.182+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:32.182+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:32.204+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:32.204+0330] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-09-21T16:28:32.243+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.149 seconds

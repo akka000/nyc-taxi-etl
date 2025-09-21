@@ -1,0 +1,22 @@
+[2025-09-21T16:26:55.873+0330] {processor.py:186} INFO - Started process (PID=30433) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-09-21T16:26:55.884+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-09-21T16:26:55.889+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:55.888+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-09-21T16:26:55.921+0330] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-09-21T16:26:56.847+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:56.846+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_time_delta_sensor_async
+[2025-09-21T16:26:56.927+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:56.927+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_time_delta_sensor_async
+[2025-09-21T16:26:56.988+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:56.987+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_time_delta_sensor_async
+[2025-09-21T16:26:57.056+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:57.055+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_time_delta_sensor_async
+[2025-09-21T16:26:57.178+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:57.177+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_time_delta_sensor_async
+[2025-09-21T16:26:57.406+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:57.405+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_time_delta_sensor_async
+[2025-09-21T16:26:57.477+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:57.476+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_time_delta_sensor_async
+[2025-09-21T16:26:57.478+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:57.477+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:26:57.645+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:57.644+0330] {dag.py:3262} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2025-09-21T16:26:57.646+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:57.645+0330] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-09-21T16:26:57.909+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 2.068 seconds
+[2025-09-21T16:28:15.677+0330] {processor.py:186} INFO - Started process (PID=32999) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-09-21T16:28:15.679+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-09-21T16:28:15.682+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:15.682+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-09-21T16:28:15.693+0330] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-09-21T16:28:15.715+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:15.715+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:15.732+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:15.732+0330] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-09-21T16:28:15.769+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.099 seconds

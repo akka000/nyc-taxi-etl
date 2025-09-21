@@ -1,0 +1,22 @@
+[2025-09-21T16:27:16.535+0330] {processor.py:186} INFO - Started process (PID=30997) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-09-21T16:27:16.536+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-09-21T16:27:16.539+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.539+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-09-21T16:27:16.555+0330] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-09-21T16:27:16.717+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.715+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-09-21T16:27:16.743+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.742+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-09-21T16:27:16.763+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.762+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-09-21T16:27:16.790+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.789+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:latest_only_with_trigger
+[2025-09-21T16:27:16.808+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.807+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:latest_only_with_trigger
+[2025-09-21T16:27:16.823+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.822+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:latest_only_with_trigger
+[2025-09-21T16:27:16.843+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.842+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:latest_only_with_trigger
+[2025-09-21T16:27:16.843+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.843+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:16.856+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.856+0330] {dag.py:3262} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-09-21T16:27:16.869+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:16.869+0330] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-09-21 08:00:00+00:00, run_after=2025-09-21 12:00:00+00:00
+[2025-09-21T16:27:16.902+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.375 seconds
+[2025-09-21T16:28:29.177+0330] {processor.py:186} INFO - Started process (PID=33573) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-09-21T16:28:29.179+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-09-21T16:28:29.181+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:29.181+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-09-21T16:28:29.192+0330] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-09-21T16:28:29.213+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:29.212+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:29.244+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:29.244+0330] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-09-21 08:00:00+00:00, run_after=2025-09-21 12:00:00+00:00
+[2025-09-21T16:28:29.282+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.112 seconds

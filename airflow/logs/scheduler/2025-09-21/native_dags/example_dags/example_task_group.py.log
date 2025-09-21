@@ -1,0 +1,22 @@
+[2025-09-21T16:26:45.316+0330] {processor.py:186} INFO - Started process (PID=30148) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2025-09-21T16:26:45.317+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-09-21T16:26:45.320+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.320+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2025-09-21T16:26:45.334+0330] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2025-09-21T16:26:45.524+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.521+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-09-21T16:26:45.568+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.567+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-09-21T16:26:45.591+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.590+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-09-21T16:26:45.634+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.633+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2025-09-21T16:26:45.666+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.665+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2025-09-21T16:26:45.701+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.700+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2025-09-21T16:26:45.728+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.727+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2025-09-21T16:26:45.729+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.729+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:26:45.779+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.778+0330] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2025-09-21T16:26:45.780+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:45.779+0330] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-09-21T16:26:45.835+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.526 seconds
+[2025-09-21T16:28:10.994+0330] {processor.py:186} INFO - Started process (PID=32869) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2025-09-21T16:28:10.998+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-09-21T16:28:11.001+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:11.000+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2025-09-21T16:28:11.016+0330] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2025-09-21T16:28:11.040+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:11.040+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:11.065+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:11.064+0330] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-09-21T16:28:11.105+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds

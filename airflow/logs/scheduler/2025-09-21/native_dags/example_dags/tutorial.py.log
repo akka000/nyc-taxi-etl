@@ -1,0 +1,29 @@
+[2025-09-21T16:26:36.016+0330] {processor.py:186} INFO - Started process (PID=29827) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:26:36.018+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-09-21T16:26:36.024+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.023+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:26:36.045+0330] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:26:36.286+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.285+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-09-21T16:26:36.313+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.312+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-09-21T16:26:36.340+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.339+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-09-21T16:26:36.369+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.368+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-09-21T16:26:36.384+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.384+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-09-21T16:26:36.398+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.397+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-09-21T16:26:36.449+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.449+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-09-21T16:26:36.450+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.449+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:26:36.484+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.483+0330] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-09-21T16:26:36.517+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:26:36.516+0330] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-09-20 00:00:00+00:00, run_after=2025-09-21 00:00:00+00:00
+[2025-09-21T16:26:36.730+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.725 seconds
+[2025-09-21T16:28:05.424+0330] {processor.py:186} INFO - Started process (PID=32720) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:28:05.426+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-09-21T16:28:05.429+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:05.428+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:28:05.446+0330] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:28:05.476+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:05.476+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:05.505+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:05.505+0330] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-09-20 00:00:00+00:00, run_after=2025-09-21 00:00:00+00:00
+[2025-09-21T16:28:05.542+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.125 seconds
+[2025-09-21T16:28:44.889+0330] {processor.py:186} INFO - Started process (PID=34298) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:28:44.891+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-09-21T16:28:44.893+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:44.893+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:28:44.906+0330] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-09-21T16:28:44.925+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:44.925+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:44.955+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:44.955+0330] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-09-20 00:00:00+00:00, run_after=2025-09-21 00:00:00+00:00
+[2025-09-21T16:28:44.994+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds

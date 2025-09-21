@@ -1,0 +1,22 @@
+[2025-09-21T16:27:10.135+0330] {processor.py:186} INFO - Started process (PID=30829) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-09-21T16:27:10.136+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-09-21T16:27:10.139+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.138+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-09-21T16:27:10.154+0330] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-09-21T16:27:10.342+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.341+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-09-21T16:27:10.362+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.361+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-09-21T16:27:10.378+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.378+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-09-21T16:27:10.406+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.405+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_params_trigger_ui
+[2025-09-21T16:27:10.435+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.434+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_params_trigger_ui
+[2025-09-21T16:27:10.456+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.455+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_params_trigger_ui
+[2025-09-21T16:27:10.472+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.472+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_params_trigger_ui
+[2025-09-21T16:27:10.473+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.472+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:10.485+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.485+0330] {dag.py:3262} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-09-21T16:27:10.486+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:10.486+0330] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-09-21T16:27:10.520+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.393 seconds
+[2025-09-21T16:28:23.921+0330] {processor.py:186} INFO - Started process (PID=33377) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-09-21T16:28:23.924+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-09-21T16:28:23.927+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:23.927+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-09-21T16:28:23.947+0330] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-09-21T16:28:23.991+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:23.991+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:24.008+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:24.008+0330] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-09-21T16:28:24.057+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.143 seconds

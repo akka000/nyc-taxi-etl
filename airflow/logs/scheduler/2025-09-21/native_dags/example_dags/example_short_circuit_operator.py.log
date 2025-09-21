@@ -1,0 +1,22 @@
+[2025-09-21T16:27:08.541+0330] {processor.py:186} INFO - Started process (PID=30812) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-09-21T16:27:08.543+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-09-21T16:27:08.545+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.545+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-09-21T16:27:08.562+0330] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-09-21T16:27:08.794+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.793+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2025-09-21T16:27:08.814+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.813+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2025-09-21T16:27:08.830+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.830+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2025-09-21T16:27:08.853+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.853+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_short_circuit_operator
+[2025-09-21T16:27:08.869+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.868+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_short_circuit_operator
+[2025-09-21T16:27:08.884+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.884+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_short_circuit_operator
+[2025-09-21T16:27:08.905+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.904+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_short_circuit_operator
+[2025-09-21T16:27:08.905+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.905+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:08.931+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.930+0330] {dag.py:3262} INFO - Creating ORM DAG for example_short_circuit_operator
+[2025-09-21T16:27:08.932+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:08.932+0330] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-09-21T16:27:08.968+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.435 seconds
+[2025-09-21T16:28:23.570+0330] {processor.py:186} INFO - Started process (PID=33341) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-09-21T16:28:23.575+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2025-09-21T16:28:23.579+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:23.579+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-09-21T16:28:23.602+0330] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2025-09-21T16:28:23.636+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:23.636+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:23.652+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:23.651+0330] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2025-09-21T16:28:23.684+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.122 seconds

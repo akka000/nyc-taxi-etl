@@ -1,0 +1,15 @@
+[2025-09-21T16:27:38.701+0330] {processor.py:186} INFO - Started process (PID=31783) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-09-21T16:27:38.702+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2025-09-21T16:27:38.705+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:38.705+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-09-21T16:27:38.727+0330] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-09-21T16:27:38.927+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:38.926+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2025-09-21T16:27:38.953+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:38.952+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2025-09-21T16:27:38.986+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:38.986+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2025-09-21T16:27:39.025+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:39.024+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_bash_operator
+[2025-09-21T16:27:39.041+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:39.041+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_bash_operator
+[2025-09-21T16:27:39.059+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:39.058+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_bash_operator
+[2025-09-21T16:27:39.084+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:39.083+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_bash_operator
+[2025-09-21T16:27:39.084+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:39.084+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:39.098+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:39.098+0330] {dag.py:3262} INFO - Creating ORM DAG for example_bash_operator
+[2025-09-21T16:27:39.112+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:39.111+0330] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2025-09-20 00:00:00+00:00, run_after=2025-09-21 00:00:00+00:00
+[2025-09-21T16:27:39.146+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.452 seconds

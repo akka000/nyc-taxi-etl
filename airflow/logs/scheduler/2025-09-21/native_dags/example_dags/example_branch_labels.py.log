@@ -1,0 +1,15 @@
+[2025-09-21T16:27:44.790+0330] {processor.py:186} INFO - Started process (PID=31953) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-09-21T16:27:44.791+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-09-21T16:27:44.794+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:44.793+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-09-21T16:27:44.807+0330] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-09-21T16:27:44.944+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:44.943+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2025-09-21T16:27:44.963+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:44.962+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2025-09-21T16:27:44.980+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:44.980+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2025-09-21T16:27:45.010+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:45.009+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2025-09-21T16:27:45.023+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:45.022+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2025-09-21T16:27:45.036+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:45.036+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2025-09-21T16:27:45.053+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:45.052+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2025-09-21T16:27:45.053+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:45.053+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:45.067+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:45.066+0330] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2025-09-21T16:27:45.091+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:45.090+0330] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-09-20 00:00:00+00:00, run_after=2025-09-21 00:00:00+00:00
+[2025-09-21T16:27:45.203+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.423 seconds

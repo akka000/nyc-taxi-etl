@@ -1,0 +1,22 @@
+[2025-09-21T16:27:32.235+0330] {processor.py:186} INFO - Started process (PID=31608) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-09-21T16:27:32.236+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2025-09-21T16:27:32.239+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.238+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-09-21T16:27:32.256+0330] {processor.py:925} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-09-21T16:27:32.417+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.417+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_setup_teardown_taskflow
+[2025-09-21T16:27:32.441+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.440+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_setup_teardown_taskflow
+[2025-09-21T16:27:32.461+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.460+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_setup_teardown_taskflow
+[2025-09-21T16:27:32.512+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.511+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown_taskflow
+[2025-09-21T16:27:32.544+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.543+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_setup_teardown_taskflow
+[2025-09-21T16:27:32.568+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.567+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_setup_teardown_taskflow
+[2025-09-21T16:27:32.586+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.585+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown_taskflow
+[2025-09-21T16:27:32.586+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.586+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:32.600+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.600+0330] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown_taskflow
+[2025-09-21T16:27:32.601+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:32.601+0330] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown_taskflow to None, run_after=None
+[2025-09-21T16:27:32.637+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.409 seconds
+[2025-09-21T16:28:50.168+0330] {processor.py:186} INFO - Started process (PID=34440) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-09-21T16:28:50.170+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2025-09-21T16:28:50.174+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:50.174+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-09-21T16:28:50.215+0330] {processor.py:925} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-09-21T16:28:50.258+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:50.258+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:50.293+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:50.293+0330] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown_taskflow to None, run_after=None
+[2025-09-21T16:28:50.406+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.252 seconds

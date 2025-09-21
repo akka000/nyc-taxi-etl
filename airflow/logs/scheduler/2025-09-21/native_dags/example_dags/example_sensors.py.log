@@ -1,0 +1,22 @@
+[2025-09-21T16:27:26.352+0330] {processor.py:186} INFO - Started process (PID=31287) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-09-21T16:27:26.353+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-09-21T16:27:26.357+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.356+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-09-21T16:27:26.379+0330] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-09-21T16:27:26.566+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.565+0330] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-09-21T16:27:26.592+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.591+0330] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-09-21T16:27:26.625+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.624+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-09-21T16:27:26.655+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.654+0330] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-09-21T16:27:26.676+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.675+0330] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-09-21T16:27:26.692+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.691+0330] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-09-21T16:27:26.712+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.712+0330] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-09-21T16:27:26.712+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.712+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:27:26.726+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.726+0330] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-09-21T16:27:26.727+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:27:26.727+0330] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-09-21T16:27:26.878+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.537 seconds
+[2025-09-21T16:28:36.077+0330] {processor.py:186} INFO - Started process (PID=34032) to work on /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-09-21T16:28:36.078+0330] {processor.py:914} INFO - Processing file /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-09-21T16:28:36.081+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:36.081+0330] {dagbag.py:588} INFO - Filling up the DagBag from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-09-21T16:28:36.097+0330] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-09-21T16:28:36.130+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:36.129+0330] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-21T16:28:36.144+0330] {logging_mixin.py:190} INFO - [2025-09-21T16:28:36.144+0330] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-09-21T16:28:36.178+0330] {processor.py:208} INFO - Processing /home/ak/projects/nyc-taxi-etl/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.113 seconds
