@@ -2,5 +2,6 @@ __pychache__/
 *.pyc
 venv/
 logs/*
-airflow/logs/
-airflow/airflow.db
+airflow/
+data/silver/*
+data/gold/*
