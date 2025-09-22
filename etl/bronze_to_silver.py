@@ -3,14 +3,19 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, unix_timestamp
 
 
-with open("config/config.json") as f:
+BASE_DIR = \
+os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+CONF_PATH= \
+os.path.join(BASE_DIR, "config", "config.json")
+
+with open(CONF_PATH) as f:
     cfg = json.load(f)
 
 spark = SparkSession.builder.appName("BronzeToSilver").getOrCreate()
 
-raw_parquet = os.path.join(cfg["local"]["raw_path"], \
+raw_parquet = os.path.join(BASE_DIR, cfg["local"]["raw_path"], \
                            "yellow_tripdata_2025-01.parquet")
-silver_out = os.path.join(cfg["local"]["silver_path"], \
+silver_out = os.path.join(BASE_DIR, cfg["local"]["silver_path"], \
                                        "trips_silver.parquet")
 
 df = spark.read.parquet(raw_parquet)\
