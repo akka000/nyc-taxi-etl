@@ -1,6 +1,6 @@
 {
-    "local":{"raw_path":"./data/raw/",
-    "silver_path":"./data/silver/",
-    "gold_path":"./data/gold/",
-    "postgres_conn_id":"nyc_taxi_local"}
+    "local":{"raw_path":"data/raw/",
+    "silver_path":"data/silver/",
+    "gold_path":"data/gold/"
+    }
 }
