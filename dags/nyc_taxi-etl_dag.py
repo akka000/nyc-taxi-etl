@@ -23,10 +23,16 @@ with DAG(
         bash_command=f"spark-submit {os.path.join(BASE_DIR, 'etl/silver_to_gold.py')}",
     )
 
+    dq = BashOperator(
+        task_id="data_quality",
+        bash_command=f"spark-submit \
+            {os.path.join(BASE_DIR,'etl/data_quality.py')}",
+    )
+
     load_to_postgres = BashOperator(
         task_id="load_to_postgres",
         bash_command=f"spark-submit \
             {os.path.join(BASE_DIR,'etl/load_to_postgres.py')}",
     )
 
-    bronze_to_silver >> silver_to_gold >> load_to_postgres
+    bronze_to_silver >> silver_to_gold >> dq >> load_to_postgres

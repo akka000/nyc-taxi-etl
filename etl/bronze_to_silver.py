@@ -1,7 +1,9 @@
 import json, os
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, unix_timestamp
+from etl.logging_utils import get_logger
 
+logger = get_logger()
 
 BASE_DIR = \
 os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -18,6 +20,9 @@ raw_parquet = os.path.join(BASE_DIR, cfg["local"]["raw_path"], \
 silver_out = os.path.join(BASE_DIR, cfg["local"]["silver_path"], \
                                        "trips_silver.parquet")
 
+
+logger.info("reading raw parquet %s", raw_parquet)
+
 df = spark.read.parquet(raw_parquet)\
     .withColumn("pickup_datetime", col("tpep_pickup_datetime").cast("timestamp"))\
     .withColumn("dropoff_datetime", col("tpep_dropoff_datetime").cast("timestamp"))\
@@ -29,4 +34,7 @@ df = spark.read.parquet(raw_parquet)\
           & (col("passenger_count") > 0) & (col("fare_amount") > 0))
 
 df.write.mode("overwrite").parquet(silver_out)
+
+logger.info("silver written to %s", silver_out)
+
 spark.stop()
