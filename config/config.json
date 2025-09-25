@@ -1,6 +1,12 @@
 {
-    "local":{"raw_path":"data/raw/",
+    "mode":"AWS",
+    "local":
+    {"raw_path":"data/raw/",
     "silver_path":"data/silver/",
     "gold_path":"data/gold/"
+    },
+    "aws":
+    {"s3_bucket":"akka000",
+    "region":"us-east-1"
     }
 }

@@ -5,3 +5,4 @@ logs/*
 airflow/
 data/silver/*
 data/gold/*
+tmp/
