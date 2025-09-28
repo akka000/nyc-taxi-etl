@@ -8,6 +8,11 @@
     "aws":
     {"s3_bucket":"akka000",
     "region":"us-east-1",
-    "glue_job_name":"nyc-taxi-etl"
+    "glue_job_name":"nyc-taxi-etl",
+    "redshift_cluster_id": "nyc-taxi-dev-28-09-2025",     
+    "redshift_database": "dev", 
+    "redshift_db_user": "admin", 
+    "redshift_iam_role": "arn:aws:iam::812612912612:role/RedshiftS3ReadRole", 
+    "use_redshift": true
     }
 }
