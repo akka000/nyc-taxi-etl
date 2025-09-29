@@ -14,7 +14,7 @@ database = cfg["aws"]["redshift_database"]
 db_user = cfg["aws"]["redshift_db_user"] 
 iam_role = cfg["aws"]["redshift_iam_role"] 
 bucket = cfg["aws"]["s3_bucket"] 
-s3_path = f"s3://{bucket}/dev/projects/nyc-taxi-etl/gold/trips_gold.parquet"
+s3_path = f"s3://{bucket}/dev/projects/nyc_taxi_etl/gold/trips_gold.parquet"
 
 client = boto3.client("redshift-data", region_name=region) 
  
