@@ -22,13 +22,12 @@ s3://bucket/silver/.
 3. **Gold (Aggregated / Analytics Layer)**
    - Reads silver data. 
    - Produces curated dataset (fact table) with fields like: 
-      - vendorid, 
+      - trip_id, 
       - pickup/dropoff datetime, 
       - passenger_count, 
       - trip_distance, 
-      - payment_type, 
       - fare_amount. 
-      - Outputs as parquet (single file in AWS mode, directory locally). 
+      - Outputs as parquet. 
 4. **Data Quality Checks (DQ)**
    - Ensures no critical columns are null. 
    - Validates row counts. 
@@ -42,7 +41,6 @@ A cleaned fact table of NYC taxi trips that can be queried for:
 - Total trips per day / hour. 
 - Average fare per passenger count. 
 - Distribution of trip distances. 
-- Payment type trends (cash vs card).
 
 ## Prerequisites 
 **Local Tools** 
@@ -156,7 +154,7 @@ Run with AWS CLI:
       --db-user admin \ 
       --sql " 
     CREATE TABLE IF NOT EXISTS trips_fact ( 
-        vendorid INT, 
+        trip_id INT, 
         tpep_pickup_datetime TIMESTAMP, 
         tpep_dropoff_datetime TIMESTAMP, 
         passenger_count INT, 
