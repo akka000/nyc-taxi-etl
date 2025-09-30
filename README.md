@@ -154,14 +154,16 @@ Run with AWS CLI:
       --db-user admin \ 
       --sql " 
     CREATE TABLE IF NOT EXISTS trips_fact ( 
-        trip_id INT, 
-        tpep_pickup_datetime TIMESTAMP, 
-        tpep_dropoff_datetime TIMESTAMP, 
-        passenger_count INT, 
-        trip_distance FLOAT, 
-        payment_type INT, 
-        fare_amount FLOAT 
-    ); 
+       pickup_date DATE, 
+       pu_location_id INT, 
+       do_location_id INT, 
+       total_trips BIGINT, 
+       avg_passenger_count FLOAT, 
+       avg_trip_distance FLOAT, 
+       avg_duration_min FLOAT, 
+       total_fare FLOAT, 
+       avg_fare FLOAT 
+   ); 
     " 
  
  
