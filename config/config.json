@@ -1,6 +1,18 @@
 {
-    "local":{"raw_path":"data/raw/",
+    "mode":"AWS",
+    "local":
+    {"raw_path":"data/raw/",
     "silver_path":"data/silver/",
     "gold_path":"data/gold/"
+    },
+    "aws":
+    {"s3_bucket":"akka000",
+    "region":"us-east-1",
+    "glue_job_name":{"bronze_to_silver":"bronze_to_silver","silver_to_gold":"silver_to_gold","dq":"dq"},
+    "redshift_cluster_id": "nyc-taxi-dev-28-09-2025",     
+    "redshift_database": "dev", 
+    "redshift_db_user": "admin", 
+    "redshift_iam_role": "arn:aws:iam::812612912612:role/RedshiftS3ReadRole", 
+    "use_redshift": true
     }
 }

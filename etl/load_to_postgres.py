@@ -20,8 +20,8 @@ df = df.repartition(8)  # adjust number based on memory and data size
 
 db_config = {
     "dbname": "nyc_taxi",
-    "user": "ak",
-    "password": "ak",
+    "user": os.getenv("POSTGRES_USER"),
+    "password": os.getenv("POSTGRES_PASSWORD"),
     "host": "localhost",
     "port": 5432
 }
